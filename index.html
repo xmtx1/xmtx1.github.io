@@ -813,12 +813,12 @@
                             } else if (
                                 [
                                     'txt', 'js', 'json', 'css', 'html', 'java', 'c', 'cpp', 'php',
-                                    'cmd', 'ps1', 'bat', 'sh', 'py', 'go', 'asp','pdf'
+                                    'cmd', 'ps1', 'bat', 'sh', 'py', 'go', 'asp'
                                 ].contains(suffix)
                             ) {
                                 return 'text';
                             } else if (
-                                ['doc', 'docx', 'ppt', 'pptx', 'xls', 'xlsx', 'mpp', 'rtf', 'vsd', 'vsdx'].contains(suffix)
+                                ['doc', 'docx', 'ppt', 'pptx','pdf', 'xls', 'xlsx', 'mpp', 'rtf', 'vsd', 'vsdx'].contains(suffix)
                             ) {
                                 return 'office';
                             }
